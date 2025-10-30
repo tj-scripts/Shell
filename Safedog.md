@@ -93,4 +93,28 @@ step 2/2, start Install Server Defense Module
   (2)install safedog version: 2.8.32947 
 install safedog completely
 Installation is complete!
+(base) demo1984s@HP-Z420-Workstation:~/Shell$ bash Safedog.sh status
+/home/demo1984s/Other/safedog_linux64 existed.
+○ safedog.service - LSB: safedog server
+     Loaded: loaded (/etc/init.d/safedog; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)
+(base) demo1984s@HP-Z420-Workstation:~/Shell$ bash Safedog.sh stop
+/home/demo1984s/Other/safedog_linux64 existed.
+(base) demo1984s@HP-Z420-Workstation:~/Shell$ bash Safedog.sh start
+/home/demo1984s/Other/safedog_linux64 existed.
+(base) demo1984s@HP-Z420-Workstation:~/Shell$ bash Safedog.sh status
+/home/demo1984s/Other/safedog_linux64 existed.
+
+
+● safedog.service - LSB: safedog server
+     Loaded: loaded (/etc/init.d/safedog; generated)
+     Active: active (exited) since Thu 2025-10-30 16:57:50 CST; 5s ago
+       Docs: man:systemd-sysv-generator(8)
+    Process: 2371844 ExecStart=/etc/init.d/safedog start (code=exited, status=0/SUCCESS)
+        CPU: 303ms
+
+10月 30 16:57:47 HP-Z420-Workstation systemd[1]: Starting safedog.service - LSB: safedog server...
+10月 30 16:57:50 HP-Z420-Workstation systemd[1]: Started safedog.service - LSB: safedog server.
+
 ```
