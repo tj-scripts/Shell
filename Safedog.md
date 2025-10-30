@@ -1,3 +1,19 @@
+## Login
+```shell
+(base) demo1984s@HP-Z420-Workstation:~/Shell$ bash Safedog.sh login
+/home/demo1984s/Other/safedog_linux64 existed.
+bash Safedog.sh login [your_account]
+(base) demo1984s@HP-Z420-Workstation:~/Shell$ bash Safedog.sh login 130*****000
+/home/demo1984s/Other/safedog_linux64 existed.
+Enter password:
+log4cplus:ERROR No appenders could be found for logger (root).
+log4cplus:ERROR Please initialize the log4cplus system properly.
+Login successed.
+Download certificate successed.
+Congratulations! Your server has successfully joined in SafeDog Fuyun.
+To experience Fuyun, please visit fuyun.safedog.cn.
+
+```
 ## Update
 ```shell
 (base) demo1984s@HP-Z420-Workstation:~/Shell$ bash Safedog.sh update
