@@ -1,11 +1,13 @@
-# MicrosoftLearning.sh
+# MicrosoftCourses.sh
+
+Microsoft Courses.
 
 ## update
 
 Projects will be cloned from https://github.com/microsoft/<Lesson For Beginners> at first.
 
 ```shell
-> bash MicrosoftLearning.sh update 
+> bash MicrosoftCourses.sh update 
 Calling git_pull, Learning All.
 
 已经是最新的。
@@ -68,7 +70,7 @@ npm notice
 Try the Lesson at http://localhost:3000.
 
 ```shell
-> bash MicrosoftLearning.sh start ML-For-Beginners
+> bash MicrosoftCourses.sh start ML-For-Beginners
 Calling docsify_serve, Learning ML-For-Beginners.
 
 

@@ -2,7 +2,18 @@
 
 PROJ_ROOT_DIR="${HOME}/Data/github.com/microsoft"
 # 仅过滤教程项目
-projects=("ML-For-Beginners" "AI-For-Beginners" "Data-Science-For-Beginners" "All")
+projects=(
+  # Azure / Edge / MCP / Agents
+  "AZD-for-beginners" "edgeai-for-beginners" "mcp-for-beginners" "ai-agents-for-beginners" 
+  # 生成式 AI 系列
+  "generative-ai-for-beginners" "Generative-AI-for-beginners-dotnet" "generative-ai-for-beginners-java" "generative-ai-with-javascript" 
+  # 核心学习
+  "ML-For-Beginners" "Data-Science-For-Beginners" "AI-For-Beginners" "Security-101" "Web-Dev-For-Beginners" "IoT-For-Beginners" "xr-development-for-beginners" 
+  # Copilot 系列
+  "Mastering-GitHub-Copilot-for-Paired-Programming" "mastering-github-copilot-for-dotnet-csharp-developers" "CopilotAdventures" 
+  # All
+  "All"
+)
 
 project="${2}"
 # 不传参数
